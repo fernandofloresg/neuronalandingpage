@@ -10,8 +10,8 @@ function doesConnectionExist() {
     function processRequest(e) {
       if (xhr.readyState == 4) {
         if (xhr.status >= 200 && xhr.status < 304) {
-          location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-        } 
+          location.href = 'https://www.neuronawireless.com/'
+        }
       }
     }
 }
