@@ -19,5 +19,5 @@ function doesConnectionExist() {
 
 if (location.protocol != 'https:')
 {
-  doesConnectionExist()
+  location.href = 'https://www.neuronawireless.com/'
 }
